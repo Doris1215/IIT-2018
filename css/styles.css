@@ -154,8 +154,8 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 mark {
-  background-color: #ff0;
-  color: #000; }
+  background-color: #065356;
+  color: #ff0000; }
 
 /**
  * Add the correct font size in all browsers.
@@ -447,7 +447,7 @@ template {
   text-transform: capitalize; }
 
 #top {
-  background: #009688; }
+  background: #065356; }
 
 .top__item {
   width: 100%;
@@ -455,9 +455,9 @@ template {
   .top__item p {
     margin: 0;
     padding: 0;
-    color: #53585E; }
+    color: #f7fcf7; }
   .top__item a {
-    color: #f1f1f2; }
+    color: #d2dbd2; }
 
 .main-menu {
   width: 100%; }
@@ -568,7 +568,7 @@ template {
     .main-menu li:hover a {
       opacity: 1; }
   .main-menu li a {
-    color: #fff;
+    color: #fcfcfc;
     opacity: .85; }
   .main-menu li ul {
     background: rgba(13, 13, 13, 0.6); }
@@ -596,7 +596,7 @@ template {
         left: 0; } }
   @media screen and (min-width: 1024px) {
     .main-nav {
-      background: rgba(13, 13, 13, 0.75);
+      background: rgba(15, 15, 15, 1);
       width: 100%;
       height: auto;
       top: 0; } }
@@ -606,7 +606,7 @@ template {
   cursor: pointer;
   width: 100%;
   top: 0;
-  background: rgba(13, 13, 13, 0.3);
+  background: rgba(, 13, 13, 0.3);
   z-index: 999;
   color: #f1f1f2;
   height: 1.5em;
@@ -650,7 +650,7 @@ template {
   #header:before {
     content: "";
     position: absolute;
-    background: rgba(243, 211, 40, 0.7);
+    background: rgba(6, 83, 86, 0.7);
     width: 50%;
     height: 100%;
     left: 0;
@@ -661,7 +661,7 @@ template {
 
 .about__content {
   text-align: center;
-  color: #53585E; }
+  color: #00040f; }
 
 .team__item {
   width: 100%;
@@ -675,20 +675,21 @@ template {
     padding-right: 0px; }
   .team__item__description {
     width: 60%;
-    background: #ECEFF1; }
+    background: #065356; }
     .team__item__description__name {
-      color: #F3D328;
+      color: #00051c;
       font-weight: 600;
       font-size: 1.15em; }
     .team__item__description__info {
-      color: #53585E;
+      color: #000000;
       font-size: .95em; }
     .team__item__description__mail {
-      color: #0D0D0D;
-      font-size: .85em;
+      color: #c2c6c4;
+      font-size: .95em;
       padding: 0;
       margin: 0; }
     .team__item__description__cal {
+      color: #fcfcff;
       padding: 0;
       font-size: .8em; }
 
@@ -705,7 +706,7 @@ template {
     .projects__item a {
       text-transform: uppercase;
       text-align: center;
-      color: #fff;
+      color: #ffffff;
       display: block;
       width: 100%;
       height: 100%;
@@ -738,14 +739,15 @@ template {
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(13, 13, 13, 0.5);
+        background: rgba(0, 49, 55, 0.3);
         top: 0;
         left: 0;
         bottom: 0;
         right: 0; }
     .projects__item:nth-child(2) {
-      background: #009688; }
-
+      background: #065356
+      ; }
+/*COLOR AZULL*/
 @media screen and (max-width: 1023px) {
   #design {
     margin-top: 4em; } }
@@ -758,10 +760,10 @@ template {
   .design__title__text {
     width: 100%; }
     .design__title__text h1 {
-      color: #53585E;
+      color: #065356;
       text-transform: capitalize; }
       .design__title__text h1 span {
-        color: #F3D328; }
+        color: #07b284; }
   .design__title__content {
     width: 100%;
     color: #0D0D0D; }
@@ -775,7 +777,8 @@ template {
       width: 50%; } }
   .design__item__icon {
     width: 20%;
-    background: #009688;
+    /*ICONOS FONDO GERSON*/
+    background: #d30c58;
     margin-bottom: .3em;
     font-size: 3em;
     text-align: center;
@@ -788,23 +791,23 @@ template {
     width: 80%;
     margin-bottom: 1em; }
     .design__item__info__title {
-      color: #005eff;
+      color: #53585E;
       font-weight: 600;
       text-transform: uppercase;
       font-size: 1.2em;
       margin-bottom: 0;
       margin-top: 0;
-      border-bottom: 1px solid #004bcc;
+      border-bottom: 1px solid #53585E;
       display: block; }
       .design__item__info__title:hover {
         text-decoration: none;
-        color: #F3D328; }
+        color: #07b284; }
     .design__item__info__details {
       font-size: .9em;
       color: #0D0D0D; }
   .design__item__img {
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    filter: grayscale(0%); }
 
 #think {
   margin-bottom: 2em; }
@@ -837,7 +840,7 @@ template {
       width: 50%; } }
   .think__details__icon {
     width: 20%;
-    background: #009688;
+    background: #07b284;
     margin-bottom: .5em;
     font-size: 3em;
     text-align: center;
@@ -937,10 +940,10 @@ template {
   .projectsFinal__title__text {
     width: 100%; }
     .projectsFinal__title__text h1 {
-      color: #53585E;
+      color: #065356;
       text-transform: capitalize; }
       .projectsFinal__title__text h1 span {
-        color: #F3D328; }
+        color: #07b284; }
   .projectsFinal__title__content {
     width: 100%;
     color: #0D0D0D; }
@@ -955,7 +958,7 @@ template {
       margin-right: auto; } }
   .projectsFinal__week__icon {
     width: 25%;
-    background: #F3D328;
+    background: #d30c58;
     border-radius: 50%;
     color: #fff;
     font-size: 2.5em;
@@ -989,4 +992,4 @@ template {
       display: block; }
       .projectsFinal__week__details__week:hover {
         text-decoration: none;
-        color: #c4a60b; }
+        color: #07b284; }
